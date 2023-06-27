@@ -16,3 +16,41 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field {
+    justify-items: center;
+    display: grid;
+    border: 3px solid #bdbdbd;
+    width: 100px;
+}
+
+.timer {
+    gap: 20px;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.flatpickr-input {
+  margin-left: 20px;
+}
+
+
+.widget {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.widget button {
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+    
+.value {
+  border: 3px solid #f0a6a2;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
